@@ -66,7 +66,7 @@ NEWS_API_KEY=your_api_key_here
 ```bash
 docker build -t stocksentiment-app .
 ```
-### ✅ Step 2: Run the container giving it the file .env where our api-key exist
+### ✅ Step 2: Run the Docker container while providing the .env file that contains your NewsAPI key.
 ```bash
 docker run --env-file .env -p 8501:8501 stocksentiment-app
 ```
