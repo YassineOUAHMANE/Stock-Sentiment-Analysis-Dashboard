@@ -2,6 +2,17 @@
 
 This project allows users to fetch real-time news about any publicly traded company and analyze the **sentiment of headlines** using a pre-trained AI model. The app provides a **visual summary of market sentiment** and gives a simple **investment recommendation** (positive, neutral, or negative) based on the overall sentiment.
 
+<!-- 📸 Image Previews -->
+<p align="center">
+  <img src="Pictures/news_sentiment_meta.png" width="45%" alt="News Sentiment Meta"/>
+  <img src="Pictures/Meta_analysis.png" width="45%" alt="Meta Sentiment Analysis"/>
+</p>
+
+<p align="center">
+  <img src="Pictures/Meta_Performance.png" width="45%" alt="Meta Performance Chart"/>
+  <img src="Pictures/volume_chart_META.png" width="45%" alt="Volume Chart for Meta"/>
+</p>
+
 ## 📁Project Structure
 Stock-Sentiment-Analysis-Dashboard/
 ```
