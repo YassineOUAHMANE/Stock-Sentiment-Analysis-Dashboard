@@ -23,7 +23,7 @@ Stock-Sentiment-Analysis-Dashboard/
 ## 🧱 System Architecture
 
 <p align="center">
-  <img src="Pictures/architecture_corrected.png" alt="Stock Sentiment Analysis Architecture" width="90%">
+  <img src="Pictures/architecture _corrected.png" alt="Stock Sentiment Analysis Architecture" width="90%">
 </p>
 
 ## 🖼️ Image Previews
