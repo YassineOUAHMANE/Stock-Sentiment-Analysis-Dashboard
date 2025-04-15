@@ -9,7 +9,7 @@ This project allows users to fetch real-time news about any publicly traded comp
 </p>
 
 <p align="center">
-  <img src="Pictures/Meta_Performance.png" width="45%" alt="Meta Performance Chart"/>
+  <img src="Pictures/Meta_Perfomance.png" width="45%" alt="Meta Performance Chart"/>
   <img src="Pictures/volume_chart_META.png" width="45%" alt="Volume Chart for Meta"/>
 </p>
 
