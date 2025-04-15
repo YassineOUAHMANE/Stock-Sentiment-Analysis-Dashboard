@@ -2,6 +2,24 @@
 
 This project allows users to fetch real-time news about any publicly traded company and analyze the **sentiment of headlines** using a pre-trained AI model. The app provides a **visual summary of market sentiment** and gives a simple **investment recommendation** (positive, neutral, or negative) based on the overall sentiment.
 
+
+## 📁Project Structure
+Stock-Sentiment-Analysis-Dashboard/
+```
+├── app.py                   # Main Streamlit application
+├── model.pkl                # Pretrained sentiment model 
+├── model.ipynb              # Pretrained sentiment model (Notebook)
+├── Pictures                 # Screenshots
+├── input/
+│   └── Dataset.csv          # Optional large CSV dataset (LFS tracked)
+├── Dockerfile               # For building the app as a Docker container
+├── .env                     # Contains your NEWS_API_KEY (not committed)
+├── .gitignore               # Ignoring .env, etc.
+├── .dockerignore            # Prevents .env and cache from going into Docker image
+├── .gitattributes           # Contains Git LFS file tracking rules
+└── README.md                # README File
+```
+
 ## 🧱 System Architecture
 
 <p align="center">
@@ -20,22 +38,7 @@ This project allows users to fetch real-time news about any publicly traded comp
   <img src="Pictures/volume_chart_META.png" width="45%" alt="Volume Chart for Meta"/>
 </p>
 
-## 📁Project Structure
-Stock-Sentiment-Analysis-Dashboard/
-```
-├── app.py                   # Main Streamlit application
-├── model.pkl                # Pretrained sentiment model 
-├── model.ipynb              # Pretrained sentiment model (Notebook)
-├── Pictures                 # Screenshots
-├── input/
-│   └── Dataset.csv          # Optional large CSV dataset (LFS tracked)
-├── Dockerfile               # For building the app as a Docker container
-├── .env                     # Contains your NEWS_API_KEY (not committed)
-├── .gitignore               # Ignoring .env, etc.
-├── .dockerignore            # Prevents .env and cache from going into Docker image
-├── .gitattributes           # Contains Git LFS file tracking rules
-└── README.md                # README File
-```
+
 
 Built using **Streamlit**, **TensorFlow**, and **NewsAPI**, the app is fully containerized and can be run with **Docker**.
 
