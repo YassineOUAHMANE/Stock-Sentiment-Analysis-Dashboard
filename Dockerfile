@@ -7,7 +7,7 @@ WORKDIR /app
 RUN conda update -n base -c defaults conda && \
     conda create -n stocksentiment python=3.9 && \
     conda install -n stocksentiment pip && \
-    conda run -n stocksentiment pip install streamlit yfinance pandas numpy matplotlib seaborn altair tensorflow==2.16.1 joblib
+    conda run -n stocksentiment pip install streamlit  panda matplotlib numpy seaborn altair tensorflow-cpu==2.16.1 joblib
 
 # Copy the app
 COPY . .
