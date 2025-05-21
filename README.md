@@ -1,4 +1,4 @@
-# 📊 Stock Sentiment Analysis Dashboard
+# Stock Sentiment Analysis Dashboard
 
 This project allows users to fetch real-time news about any publicly traded company and analyze the **sentiment of headlines** using a pre-trained AI model. The app provides a **visual summary of market sentiment** and gives a simple **investment recommendation** (positive, neutral, or negative) based on the overall sentiment.
 
